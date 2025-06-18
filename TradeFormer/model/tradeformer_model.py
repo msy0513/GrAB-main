@@ -1,7 +1,7 @@
 import torch
 from torch_geometric.graphgym.models.gnn import GNNPreMP
 from .rrwp_pe import RRWPLinearNodeEncoder, RRWPLinearEdgeEncoder
-from .grit_layer import GritTransformerLayer
+from .tradeformer_layer import GritTransformerLayer
 import torch.nn as nn
 
 
