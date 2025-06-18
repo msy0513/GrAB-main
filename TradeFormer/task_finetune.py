@@ -3,8 +3,8 @@ from loguru import logger
 from pathlib import Path
 from torch_geometric.loader import DataLoader
 from utils.utils import parse_config, set_random_seed, log_GPU_info, load_model
-from grit.dataset.mini_dataset import create_miniDataset
-from grit.model.grit_model import GritTransformer
+from TradeFormer.dataset.mini_dataset import create_miniDataset
+from TradeFormer.model.grit_model import GritTransformer
 from task_trainer import TaskTrainer
 from torchinfo import summary
 
