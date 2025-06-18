@@ -1,6 +1,6 @@
 import torch
 from torch_geometric.data import InMemoryDataset
-from grit.dataset.transform import RRWPTransform, SimilarTransform
+from TradeFormer.dataset.transform import RRWPTransform, SimilarTransform
 import argparse
 from utils.utils import parse_config
 
